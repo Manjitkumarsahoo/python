@@ -1,19 +1,19 @@
 #Inheritance in multithreding
-#different task for multiple thred
+#different task for multiple thread
 
 import threading
-class Mythred1(threading.Thread):
+class Mythread1(threading.Thread):
     def run(self):
         for i in range(5):
             print("Hello")
 
-class Mythred2(threading.Thread):
+class Mythread2(threading.Thread):
     def run(self):
         for i in range(5):
             print("Bye")
 
-t1=Mythred1()
-t2=Mythred2()
+t1=Mythread1()
+t2=Mythread2()
 
 t1.start()
 t2.start()

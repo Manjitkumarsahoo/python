@@ -1,4 +1,4 @@
-# Inheritance using threed class 
+# Inheritance using thread class 
 
 import threading
 class Mythread(threading.Thread):
